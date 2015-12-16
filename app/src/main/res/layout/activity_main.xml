@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+
+    tools:context="nanodegree.portfolio.MainActivity">
+    <TextView
+        android:id="@+id/Title"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/AppContent"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/spotify"
+            android:textColor="#FFFFFF"
+            android:text="@string/app_1"
+            android:translationZ="2dp"
+            android:onClick="printX"
+            android:layout_width="250dp"
+            android:layout_height="80dp" />
+
+        <Button
+            android:id="@+id/scores"
+            android:text="@string/app_2"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:onClick="printX"
+            android:translationZ="2dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="250dp"
+            android:layout_height="80dp" />
+        <Button
+            android:id="@+id/library"
+            android:text="@string/app_3"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:onClick="printX"
+            android:layout_width="250dp"
+            android:background="@color/colorPrimaryDark"
+            android:translationZ="2dp"
+            android:layout_height="80dp" />
+        <Button
+            android:id="@+id/build"
+            android:text="@string/app_4"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:onClick="printX"
+            android:layout_width="250dp"
+            android:translationZ="2dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="80dp" />
+        <Button
+            android:id="@+id/xyz"
+            android:text="@string/app_5"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:onClick="printX"
+            android:layout_width="250dp"
+            android:translationZ="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="80dp" />
+        <Button
+            android:id="@+id/capstone"
+            android:text="@string/app_6"
+            android:textColor="#FFFFFF"
+            android:onClick="printX"
+            android:layout_width="250dp"
+            android:translationZ="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:layout_height="80dp" />
+    </LinearLayout>
+</RelativeLayout>
